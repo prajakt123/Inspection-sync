@@ -1,0 +1,1353 @@
+{
+  "android": {
+    "support": {
+      "v4": {
+        "content": {
+          "Loader": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html",
+            "!type": "fn(context: +android.content.Context)",
+            "ForceLoadContentObserver": {
+              "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.ForceLoadContentObserver.html",
+              "!type": "fn()",
+              "prototype": {
+                "releaseContentObserver": {
+                  "!type": "fn() -> IContentObserver",
+                  "!url": "http://developer.android.com/reference/android/database/ContentObserver.html#releaseContentObserver()"
+                },
+                "notifyAll": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+                },
+                "toString": {
+                  "!type": "fn() -> string",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+                },
+                "equals": {
+                  "!type": "fn(o: +java.lang.Object) -> bool",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+                },
+                "wait": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+                },
+                "deliverSelfNotifications": {
+                  "!type": "fn() -> bool",
+                  "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.ForceLoadContentObserver.html#deliverSelfNotifications()"
+                },
+                "onChange": {
+                  "!type": "fn(selfChange: bool) -> void",
+                  "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.ForceLoadContentObserver.html#onChange(boolean)"
+                },
+                "dispatchChange": {
+                  "!type": "fn(selfChange: bool) -> void",
+                  "!url": "http://developer.android.com/reference/android/database/ContentObserver.html#dispatchChange(boolean)"
+                },
+                "hashCode": {
+                  "!type": "fn() -> number",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+                },
+                "getClass": {
+                  "!type": "fn() -> +java.lang.Class",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+                },
+                "notify": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+                },
+                "getContentObserver": {
+                  "!type": "fn() -> IContentObserver",
+                  "!url": "http://developer.android.com/reference/android/database/ContentObserver.html#getContentObserver()"
+                }
+              }
+            },
+            "prototype": {
+              "deliverResult": {
+                "!type": "fn(data: +java.lang.Object) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#deliverResult(D)"
+              },
+              "isReset": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isReset()"
+              },
+              "takeContentChanged": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#takeContentChanged()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "commitContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#commitContentChanged()"
+              },
+              "startLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#startLoading()"
+              },
+              "forceLoad": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#forceLoad()"
+              },
+              "unregisterOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              },
+              "dataToString": {
+                "!type": "fn(data: +java.lang.Object) -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#dataToString(D)"
+              },
+              "cancelLoad": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#cancelLoad()"
+              },
+              "dump": {
+                "!type": "fn(prefix: string, fd: +java.io.FileDescriptor, writer: +java.io.PrintWriter, args: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[])"
+              },
+              "onContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#onContentChanged()"
+              },
+              "getContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getContext()"
+              },
+              "deliverCancellation": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#deliverCancellation()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "isAbandoned": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isAbandoned()"
+              },
+              "getId": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getId()"
+              },
+              "isStarted": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isStarted()"
+              },
+              "stopLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#stopLoading()"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#toString()"
+              },
+              "abandon": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#abandon()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "rollbackContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#rollbackContentChanged()"
+              },
+              "registerListener": {
+                "!type": "fn(id: number, listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerListener(int, android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "reset": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#reset()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "unregisterListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterListener(android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "registerOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              }
+            }
+          },
+          "AsyncTaskLoader": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html",
+            "!type": "fn(context: +android.content.Context)",
+            "prototype": {
+              "onCanceled": {
+                "!type": "fn(data: +java.lang.Object) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#onCanceled(D)"
+              },
+              "isLoadInBackgroundCanceled": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#isLoadInBackgroundCanceled()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#toString()"
+              },
+              "isReset": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isReset()"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "stopLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#stopLoading()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "dataToString": {
+                "!type": "fn(data: +java.lang.Object) -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#dataToString(D)"
+              },
+              "unregisterOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              },
+              "startLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#startLoading()"
+              },
+              "registerOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              },
+              "cancelLoadInBackground": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#cancelLoadInBackground()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "waitForLoader": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#waitForLoader()"
+              },
+              "getContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getContext()"
+              },
+              "abandon": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#abandon()"
+              },
+              "forceLoad": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#forceLoad()"
+              },
+              "unregisterListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterListener(android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "isAbandoned": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isAbandoned()"
+              },
+              "registerListener": {
+                "!type": "fn(id: number, listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerListener(int, android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "commitContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#commitContentChanged()"
+              },
+              "isStarted": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isStarted()"
+              },
+              "deliverCancellation": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#deliverCancellation()"
+              },
+              "setUpdateThrottle": {
+                "!type": "fn(delayMS: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#setUpdateThrottle(long)"
+              },
+              "dump": {
+                "!type": "fn(prefix: string, fd: +java.io.FileDescriptor, writer: +java.io.PrintWriter, args: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[])"
+              },
+              "reset": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#reset()"
+              },
+              "rollbackContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#rollbackContentChanged()"
+              },
+              "deliverResult": {
+                "!type": "fn(data: +java.lang.Object) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#deliverResult(D)"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "takeContentChanged": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#takeContentChanged()"
+              },
+              "cancelLoad": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#cancelLoad()"
+              },
+              "onContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#onContentChanged()"
+              },
+              "getId": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getId()"
+              },
+              "loadInBackground": {
+                "!type": "fn() -> +java.lang.Object",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#loadInBackground()"
+              }
+            }
+          },
+          "FileProvider": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html",
+            "!type": "fn()",
+            "uriHasUserId": {
+              "!type": "fn(uri: +android.net.Uri) -> bool",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#uriHasUserId(android.net.Uri)"
+            },
+            "coerceToLocalContentProvider": {
+              "!type": "fn(abstractInterface: +android.content.IContentProvider) -> +android.content.ContentProvider",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#coerceToLocalContentProvider(android.content.IContentProvider)"
+            },
+            "getUserIdFromUri": {
+              "!type": "fn(uri: +android.net.Uri, defaultUserId: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getUserIdFromUri(android.net.Uri, int)"
+            },
+            "getAuthorityWithoutUserId": {
+              "!type": "fn(auth: string) -> string",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getAuthorityWithoutUserId(java.lang.String)"
+            },
+            "getUserIdFromAuthority": {
+              "!type": "fn(auth: string, defaultUserId: number) -> number",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getUserIdFromAuthority(java.lang.String, int)"
+            },
+            "maybeAddUserId": {
+              "!type": "fn(uri: +android.net.Uri, userId: number) -> +android.net.Uri",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#maybeAddUserId(android.net.Uri, int)"
+            },
+            "getUriWithoutUserId": {
+              "!type": "fn(uri: +android.net.Uri) -> +android.net.Uri",
+              "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getUriWithoutUserId(android.net.Uri)"
+            },
+            "getUriForFile": {
+              "!type": "fn(context: +android.content.Context, authority: string, file: +java.io.File) -> +android.net.Uri",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#getUriForFile(android.content.Context, java.lang.String, java.io.File)"
+            },
+            "prototype": {
+              "openPipeHelper": {
+                "!type": "fn(uri: +android.net.Uri, mimeType: string, opts: +android.os.Bundle, args: +java.lang.Object, func: +android.content.ContentProvider.PipeDataWriter) -> +android.os.ParcelFileDescriptor",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#openPipeHelper(android.net.Uri, java.lang.String, android.os.Bundle, T, android.content.ContentProvider.PipeDataWriter)"
+              },
+              "call": {
+                "!type": "fn(method: string, arg: string, extras: +android.os.Bundle) -> +android.os.Bundle",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#call(java.lang.String, java.lang.String, android.os.Bundle)"
+              },
+              "attachInfoForTesting": {
+                "!type": "fn(context: +android.content.Context, info: +android.content.pm.ProviderInfo) -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#attachInfoForTesting(android.content.Context, android.content.pm.ProviderInfo)"
+              },
+              "getIContentProvider": {
+                "!type": "fn() -> +android.content.IContentProvider",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getIContentProvider()"
+              },
+              "shutdown": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#shutdown()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "setAppOps": {
+                "!type": "fn(readOp: number, writeOp: number) -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#setAppOps(int, int)"
+              },
+              "openTypedAssetFile": {
+                "!type": "fn(uri: +android.net.Uri, mimeTypeFilter: string, opts: +android.os.Bundle) -> +android.content.res.AssetFileDescriptor",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#openTypedAssetFile(android.net.Uri, java.lang.String, android.os.Bundle)"
+              },
+              "insert": {
+                "!type": "fn(uri: +android.net.Uri, values: +android.content.ContentValues) -> +android.net.Uri",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#insert(android.net.Uri, android.content.ContentValues)"
+              },
+              "getAppOpsManager": {
+                "!type": "fn() -> +android.app.AppOpsManager",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getAppOpsManager()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "onConfigurationChanged": {
+                "!type": "fn(newConfig: +android.content.res.Configuration) -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#onConfigurationChanged(android.content.res.Configuration)"
+              },
+              "onLowMemory": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#onLowMemory()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "rejectInsert": {
+                "!type": "fn(uri: +android.net.Uri, values: +android.content.ContentValues) -> +android.net.Uri",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#rejectInsert(android.net.Uri, android.content.ContentValues)"
+              },
+              "openFile": {
+                "!type": "fn(uri: +android.net.Uri, mode: string) -> +android.os.ParcelFileDescriptor",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#openFile(android.net.Uri, java.lang.String)"
+              },
+              "getStreamTypes": {
+                "!type": "fn(uri: +android.net.Uri, mimeTypeFilter: string) -> +java.newArray",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getStreamTypes(android.net.Uri, java.lang.String)"
+              },
+              "applyBatch": {
+                "!type": "fn(operations: +java.util.ArrayList) -> +java.newArray",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#applyBatch(java.util.ArrayList)"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "attachInfo": {
+                "!type": "fn(context: +android.content.Context, info: +android.content.pm.ProviderInfo) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#attachInfo(android.content.Context, android.content.pm.ProviderInfo)"
+              },
+              "getCallingPackage": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getCallingPackage()"
+              },
+              "getContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getContext()"
+              },
+              "getType": {
+                "!type": "fn(uri: +android.net.Uri) -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#getType(android.net.Uri)"
+              },
+              "getPathPermissions": {
+                "!type": "fn() -> +java.newArray",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getPathPermissions()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "canonicalize": {
+                "!type": "fn(url: +android.net.Uri) -> +android.net.Uri",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#canonicalize(android.net.Uri)"
+              },
+              "bulkInsert": {
+                "!type": "fn(uri: +android.net.Uri, values: +java.newArray) -> number",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#bulkInsert(android.net.Uri, android.content.ContentValues[])"
+              },
+              "update": {
+                "!type": "fn(uri: +android.net.Uri, values: +android.content.ContentValues, selection: string, selectionArgs: +java.newArray) -> number",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#update(android.net.Uri, android.content.ContentValues, java.lang.String, java.lang.String[])"
+              },
+              "onCreate": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#onCreate()"
+              },
+              "delete": {
+                "!type": "fn(uri: +android.net.Uri, selection: string, selectionArgs: +java.newArray) -> number",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#delete(android.net.Uri, java.lang.String, java.lang.String[])"
+              },
+              "openAssetFile": {
+                "!type": "fn(uri: +android.net.Uri, mode: string) -> +android.content.res.AssetFileDescriptor",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#openAssetFile(android.net.Uri, java.lang.String)"
+              },
+              "dump": {
+                "!type": "fn(fd: +java.io.FileDescriptor, writer: +java.io.PrintWriter, args: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#dump(java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[])"
+              },
+              "onTrimMemory": {
+                "!type": "fn(level: number) -> void",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#onTrimMemory(int)"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "query": {
+                "!type": "fn(uri: +android.net.Uri, projection: +java.newArray, selection: string, selectionArgs: +java.newArray, sortOrder: string) -> +android.database.Cursor",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProvider.html#query(android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String)"
+              },
+              "getReadPermission": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getReadPermission()"
+              },
+              "uncanonicalize": {
+                "!type": "fn(url: +android.net.Uri) -> +android.net.Uri",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#uncanonicalize(android.net.Uri)"
+              },
+              "getWritePermission": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/content/ContentProvider.html#getWritePermission()"
+              }
+            }
+          },
+          "ContentResolverCompat": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/ContentResolverCompat.html",
+            "query": {
+              "!type": "fn(resolver: +android.content.ContentResolver, uri: +android.net.Uri, projection: +java.newArray, selection: string, selectionArgs: +java.newArray, sortOrder: string, cancellationSignal: +android.support.v4.os.CancellationSignal) -> +android.database.Cursor",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContentResolverCompat.html#query(android.content.ContentResolver, android.net.Uri, java.lang.String[], java.lang.String, java.lang.String[], java.lang.String, android.support.v4.os.CancellationSignal)"
+            },
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              }
+            }
+          },
+          "CursorLoader": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html",
+            "!type": "fn(context: +android.content.Context)",
+            "prototype": {
+              "onCanceled": {
+                "!type": "fn(cursor: +android.database.Cursor) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#onCanceled(android.database.Cursor)"
+              },
+              "isLoadInBackgroundCanceled": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#isLoadInBackgroundCanceled()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#toString()"
+              },
+              "isReset": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isReset()"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "setUri": {
+                "!type": "fn(uri: +android.net.Uri) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#setUri(android.net.Uri)"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "stopLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#stopLoading()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "dataToString": {
+                "!type": "fn(data: +java.lang.Object) -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#dataToString(D)"
+              },
+              "unregisterOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              },
+              "startLoading": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#startLoading()"
+              },
+              "registerOnLoadCanceledListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCanceledListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerOnLoadCanceledListener(android.support.v4.content.Loader.OnLoadCanceledListener)"
+              },
+              "cancelLoadInBackground": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#cancelLoadInBackground()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "getSortOrder": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#getSortOrder()"
+              },
+              "waitForLoader": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#waitForLoader()"
+              },
+              "getSelection": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#getSelection()"
+              },
+              "getContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getContext()"
+              },
+              "getSelectionArgs": {
+                "!type": "fn() -> +java.newArray",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#getSelectionArgs()"
+              },
+              "abandon": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#abandon()"
+              },
+              "getProjection": {
+                "!type": "fn() -> +java.newArray",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#getProjection()"
+              },
+              "forceLoad": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#forceLoad()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "unregisterListener": {
+                "!type": "fn(listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#unregisterListener(android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "isAbandoned": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isAbandoned()"
+              },
+              "commitContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#commitContentChanged()"
+              },
+              "registerListener": {
+                "!type": "fn(id: number, listener: +android.support.v4.content.Loader.OnLoadCompleteListener) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#registerListener(int, android.support.v4.content.Loader.OnLoadCompleteListener)"
+              },
+              "isStarted": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#isStarted()"
+              },
+              "deliverCancellation": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#deliverCancellation()"
+              },
+              "setUpdateThrottle": {
+                "!type": "fn(delayMS: +java.lang.Long) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/AsyncTaskLoader.html#setUpdateThrottle(long)"
+              },
+              "dump": {
+                "!type": "fn(prefix: string, fd: +java.io.FileDescriptor, writer: +java.io.PrintWriter, args: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#dump(java.lang.String, java.io.FileDescriptor, java.io.PrintWriter, java.lang.String[])"
+              },
+              "rollbackContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#rollbackContentChanged()"
+              },
+              "reset": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#reset()"
+              },
+              "setSortOrder": {
+                "!type": "fn(sortOrder: string) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#setSortOrder(java.lang.String)"
+              },
+              "setSelection": {
+                "!type": "fn(selection: string) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#setSelection(java.lang.String)"
+              },
+              "deliverResult": {
+                "!type": "fn(cursor: +android.database.Cursor) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#deliverResult(android.database.Cursor)"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "takeContentChanged": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#takeContentChanged()"
+              },
+              "setProjection": {
+                "!type": "fn(projection: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#setProjection(java.lang.String[])"
+              },
+              "cancelLoad": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#cancelLoad()"
+              },
+              "onContentChanged": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#onContentChanged()"
+              },
+              "getId": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/Loader.html#getId()"
+              },
+              "loadInBackground": {
+                "!type": "fn() -> +android.database.Cursor",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#loadInBackground()"
+              },
+              "getUri": {
+                "!type": "fn() -> +android.net.Uri",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#getUri()"
+              },
+              "setSelectionArgs": {
+                "!type": "fn(selectionArgs: +java.newArray) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/CursorLoader.html#setSelectionArgs(java.lang.String[])"
+              }
+            }
+          },
+          "IntentCompat": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html",
+            "EXTRA_CHANGED_UID_LIST": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#EXTRA_CHANGED_UID_LIST"
+            },
+            "EXTRA_HTML_TEXT": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#EXTRA_HTML_TEXT"
+            },
+            "FLAG_ACTIVITY_CLEAR_TASK": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#FLAG_ACTIVITY_CLEAR_TASK"
+            },
+            "ACTION_EXTERNAL_APPLICATIONS_AVAILABLE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#ACTION_EXTERNAL_APPLICATIONS_AVAILABLE"
+            },
+            "EXTRA_CHANGED_PACKAGE_LIST": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#EXTRA_CHANGED_PACKAGE_LIST"
+            },
+            "FLAG_ACTIVITY_TASK_ON_HOME": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#FLAG_ACTIVITY_TASK_ON_HOME"
+            },
+            "ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE": {
+              "!type": "string",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE"
+            },
+            "makeMainSelectorActivity": {
+              "!type": "fn(selectorAction: string, selectorCategory: string) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#makeMainSelectorActivity(java.lang.String, java.lang.String)"
+            },
+            "makeMainActivity": {
+              "!type": "fn(mainActivity: +android.content.ComponentName) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#makeMainActivity(android.content.ComponentName)"
+            },
+            "makeRestartActivityTask": {
+              "!type": "fn(mainActivity: +android.content.ComponentName) -> +android.content.Intent",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/IntentCompat.html#makeRestartActivityTask(android.content.ComponentName)"
+            },
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              }
+            }
+          },
+          "PermissionChecker": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html",
+            "PERMISSION_GRANTED": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#PERMISSION_GRANTED"
+            },
+            "PERMISSION_DENIED": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#PERMISSION_DENIED"
+            },
+            "PERMISSION_DENIED_APP_OP": {
+              "!type": "number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#PERMISSION_DENIED_APP_OP"
+            },
+            "checkSelfPermission": {
+              "!type": "fn(context: +android.content.Context, permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#checkSelfPermission(android.content.Context, java.lang.String)"
+            },
+            "checkPermission": {
+              "!type": "fn(context: +android.content.Context, permission: string, pid: number, uid: number, packageName: string) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#checkPermission(android.content.Context, java.lang.String, int, int, java.lang.String)"
+            },
+            "checkCallingOrSelfPermission": {
+              "!type": "fn(context: +android.content.Context, permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#checkCallingOrSelfPermission(android.content.Context, java.lang.String)"
+            },
+            "checkCallingPermission": {
+              "!type": "fn(context: +android.content.Context, permission: string, packageName: string) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/PermissionChecker.html#checkCallingPermission(android.content.Context, java.lang.String, java.lang.String)"
+            },
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              }
+            }
+          },
+          "LocalBroadcastManager": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html",
+            "getInstance": {
+              "!type": "fn(context: +android.content.Context) -> +android.support.v4.content.LocalBroadcastManager",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html#getInstance(android.content.Context)"
+            },
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "sendBroadcast": {
+                "!type": "fn(intent: +android.content.Intent) -> bool",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html#sendBroadcast(android.content.Intent)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "unregisterReceiver": {
+                "!type": "fn(receiver: +android.content.BroadcastReceiver) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html#unregisterReceiver(android.content.BroadcastReceiver)"
+              },
+              "sendBroadcastSync": {
+                "!type": "fn(intent: +android.content.Intent) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html#sendBroadcastSync(android.content.Intent)"
+              },
+              "registerReceiver": {
+                "!type": "fn(receiver: +android.content.BroadcastReceiver, filter: +android.content.IntentFilter) -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/LocalBroadcastManager.html#registerReceiver(android.content.BroadcastReceiver, android.content.IntentFilter)"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              }
+            }
+          },
+          "SharedPreferencesCompat": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/SharedPreferencesCompat.html",
+            "!type": "fn()",
+            "EditorCompat": {
+              "!url": "http://developer.android.com/reference/android/support/v4/content/SharedPreferencesCompat.EditorCompat.html",
+              "getInstance": {
+                "!type": "fn() -> +android.support.v4.content.SharedPreferencesCompat.EditorCompat",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/SharedPreferencesCompat.EditorCompat.html#getInstance()"
+              },
+              "prototype": {
+                "hashCode": {
+                  "!type": "fn() -> number",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+                },
+                "getClass": {
+                  "!type": "fn() -> +java.lang.Class",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+                },
+                "apply": {
+                  "!type": "fn(editor: +android.content.SharedPreferences.Editor) -> void",
+                  "!url": "http://developer.android.com/reference/android/support/v4/content/SharedPreferencesCompat.EditorCompat.html#apply(android.content.SharedPreferences.Editor)"
+                },
+                "notify": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+                },
+                "notifyAll": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+                },
+                "equals": {
+                  "!type": "fn(o: +java.lang.Object) -> bool",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+                },
+                "wait": {
+                  "!type": "fn() -> void",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+                },
+                "toString": {
+                  "!type": "fn() -> string",
+                  "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+                }
+              }
+            },
+            "prototype": {
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              }
+            }
+          },
+          "WakefulBroadcastReceiver": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/WakefulBroadcastReceiver.html",
+            "!type": "fn()",
+            "completeWakefulIntent": {
+              "!type": "fn(intent: +android.content.Intent) -> bool",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/WakefulBroadcastReceiver.html#completeWakefulIntent(android.content.Intent)"
+            },
+            "startWakefulService": {
+              "!type": "fn(context: +android.content.Context, intent: +android.content.Intent) -> +android.content.ComponentName",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/WakefulBroadcastReceiver.html#startWakefulService(android.content.Context, android.content.Intent)"
+            },
+            "prototype": {
+              "onReceive": {
+                "!type": "fn(context: +android.content.Context, intent: +android.content.Intent) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#onReceive(android.content.Context, android.content.Intent)"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "getAbortBroadcast": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getAbortBroadcast()"
+              },
+              "setOrderedHint": {
+                "!type": "fn(isOrdered: bool) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setOrderedHint(boolean)"
+              },
+              "setResult": {
+                "!type": "fn(code: number, data: string, extras: +android.os.Bundle) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setResult(int, java.lang.String, android.os.Bundle)"
+              },
+              "clearAbortBroadcast": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#clearAbortBroadcast()"
+              },
+              "getPendingResult": {
+                "!type": "fn() -> +android.content.BroadcastReceiver.PendingResult",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getPendingResult()"
+              },
+              "getResultData": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getResultData()"
+              },
+              "getDebugUnregister": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getDebugUnregister()"
+              },
+              "getResultCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getResultCode()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "getResultExtras": {
+                "!type": "fn(makeMap: bool) -> +android.os.Bundle",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getResultExtras(boolean)"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "setResultData": {
+                "!type": "fn(data: string) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setResultData(java.lang.String)"
+              },
+              "abortBroadcast": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#abortBroadcast()"
+              },
+              "getSendingUserId": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#getSendingUserId()"
+              },
+              "setResultCode": {
+                "!type": "fn(code: number) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setResultCode(int)"
+              },
+              "setPendingResult": {
+                "!type": "fn(result: +android.content.BroadcastReceiver.PendingResult) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setPendingResult(android.content.BroadcastReceiver.PendingResult)"
+              },
+              "setResultExtras": {
+                "!type": "fn(extras: +android.os.Bundle) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setResultExtras(android.os.Bundle)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "isOrderedBroadcast": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#isOrderedBroadcast()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "setDebugUnregister": {
+                "!type": "fn(debug: bool) -> void",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#setDebugUnregister(boolean)"
+              },
+              "peekService": {
+                "!type": "fn(myContext: +android.content.Context, service: +android.content.Intent) -> +android.os.IBinder",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#peekService(android.content.Context, android.content.Intent)"
+              },
+              "isInitialStickyBroadcast": {
+                "!type": "fn() -> bool",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#isInitialStickyBroadcast()"
+              },
+              "goAsync": {
+                "!type": "fn() -> +android.content.BroadcastReceiver.PendingResult",
+                "!url": "http://developer.android.com/reference/android/content/BroadcastReceiver.html#goAsync()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              }
+            }
+          },
+          "FileProviderTest": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html",
+            "!type": "fn()",
+            "prototype": {
+              "testStrategyUriShortestRoot": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyUriShortestRoot()"
+              },
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "setTestContext": {
+                "!type": "fn(context: +android.content.Context) -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#setTestContext(android.content.Context)"
+              },
+              "getTestContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#getTestContext()"
+              },
+              "testStrategyFileJumpOutside": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyFileJumpOutside()"
+              },
+              "assertWritingContentUriRequiresPermission": {
+                "!type": "fn(uri: +android.net.Uri, permission: string) -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#assertWritingContentUriRequiresPermission(android.net.Uri, java.lang.String)"
+              },
+              "testDelete": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testDelete()"
+              },
+              "testAndroidTestCaseSetupProperly": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#testAndroidTestCaseSetupProperly()"
+              },
+              "testStrategyExtraParams": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyExtraParams()"
+              },
+              "testReadFile": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testReadFile()"
+              },
+              "getContext": {
+                "!type": "fn() -> +android.content.Context",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#getContext()"
+              },
+              "testQueryExtraColumn": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testQueryExtraColumn()"
+              },
+              "testStrategyUriJumpOutside": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyUriJumpOutside()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              },
+              "testStrategyFileSimple": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyFileSimple()"
+              },
+              "testStrategyEscaping": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyEscaping()"
+              },
+              "testWriteFile": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testWriteFile()"
+              },
+              "testStrategyUriSimple": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyUriSimple()"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "assertReadingContentUriRequiresPermission": {
+                "!type": "fn(uri: +android.net.Uri, permission: string) -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#assertReadingContentUriRequiresPermission(android.net.Uri, java.lang.String)"
+              },
+              "assertActivityRequiresPermission": {
+                "!type": "fn(packageName: string, className: string, permission: string) -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#assertActivityRequiresPermission(java.lang.String, java.lang.String, java.lang.String)"
+              },
+              "testQueryProjectionOrder": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testQueryProjectionOrder()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "setContext": {
+                "!type": "fn(context: +android.content.Context) -> void",
+                "!url": "http://developer.android.com/reference/android/test/AndroidTestCase.html#setContext(android.content.Context)"
+              },
+              "testStrategyExtraSeparators": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testStrategyExtraSeparators()"
+              },
+              "testQueryProjectionNull": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testQueryProjectionNull()"
+              },
+              "testWriteMissingFile": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testWriteMissingFile()"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "testMetaDataTargets": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/FileProviderTest.html#testMetaDataTargets()"
+              }
+            }
+          },
+          "ContextCompat": {
+            "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html",
+            "!type": "fn()",
+            "checkSelfPermission": {
+              "!type": "fn(context: +android.content.Context, permission: string) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#checkSelfPermission(android.content.Context, java.lang.String)"
+            },
+            "getExternalFilesDirs": {
+              "!type": "fn(context: +android.content.Context, type: string) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getExternalFilesDirs(android.content.Context, java.lang.String)"
+            },
+            "getExternalCacheDirs": {
+              "!type": "fn(context: +android.content.Context) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getExternalCacheDirs(android.content.Context)"
+            },
+            "getColorStateList": {
+              "!type": "fn(context: +android.content.Context, id: number) -> +android.content.res.ColorStateList",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getColorStateList(android.content.Context, int)"
+            },
+            "getColor": {
+              "!type": "fn(context: +android.content.Context, id: number) -> number",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getColor(android.content.Context, int)"
+            },
+            "getObbDirs": {
+              "!type": "fn(context: +android.content.Context) -> +java.newArray",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getObbDirs(android.content.Context)"
+            },
+            "getDrawable": {
+              "!type": "fn(context: +android.content.Context, id: number) -> +android.graphics.drawable.Drawable",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getDrawable(android.content.Context, int)"
+            },
+            "startActivities": {
+              "!type": "fn(context: +android.content.Context, intents: +java.newArray) -> bool",
+              "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#startActivities(android.content.Context, android.content.Intent[])"
+            },
+            "prototype": {
+              "notifyAll": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notifyAll()"
+              },
+              "getNoBackupFilesDir": {
+                "!type": "fn(context: +android.content.Context) -> +java.io.File",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getNoBackupFilesDir(android.content.Context)"
+              },
+              "toString": {
+                "!type": "fn() -> string",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#toString()"
+              },
+              "equals": {
+                "!type": "fn(o: +java.lang.Object) -> bool",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#equals(java.lang.Object)"
+              },
+              "wait": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#wait()"
+              },
+              "hashCode": {
+                "!type": "fn() -> number",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#hashCode()"
+              },
+              "getCodeCacheDir": {
+                "!type": "fn(context: +android.content.Context) -> +java.io.File",
+                "!url": "http://developer.android.com/reference/android/support/v4/content/ContextCompat.html#getCodeCacheDir(android.content.Context)"
+              },
+              "getClass": {
+                "!type": "fn() -> +java.lang.Class",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#getClass()"
+              },
+              "notify": {
+                "!type": "fn() -> void",
+                "!url": "http://developer.android.com/reference/java/lang/Object.html#notify()"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

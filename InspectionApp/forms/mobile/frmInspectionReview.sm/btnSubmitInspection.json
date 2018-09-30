@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "scbf7e3d77194c3585032dea6a8a81ed",
+    "_text_": "SUBMIT INSPECTION",
+    "_top_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "scbf7e3d77194c3585032dea6a8a81ed",
+    "id": "btnSubmitInspection",
+    "ide_onClick": "AS_Button_ee690f1d08684c248ac1078dd9d7d105",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "jfedfe3bddf844c48f2d0bd6e15af97c",
+    "name": "kony.ui.Button",
+    "parent": "flxScAssetDetailContainer",
+    "pf": "frmInspectionReview",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

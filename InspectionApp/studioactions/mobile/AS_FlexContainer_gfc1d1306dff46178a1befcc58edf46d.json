@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_gfc1d1306dff46178a1befcc58edf46d": {
+        "id": "AS_FlexContainer_gfc1d1306dff46178a1befcc58edf46d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a01ea68ec5a940a7b048f92adf734c53",
+            "name": "frmInspectionReview",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__eada8efbb10140668621034d502a9ffb",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onClickOfHistory();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

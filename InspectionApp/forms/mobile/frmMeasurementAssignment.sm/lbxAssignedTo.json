@@ -1,0 +1,88 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "58dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        5,
+        0,
+        6,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "sf383c2ba97b467fbd8128318114aab0",
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "87%"
+    },
+    "android": {
+        "dropDownImage": "listboxarw_3_1.png"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "fsins_ic_listboxarw_1.png",
+    "focusskin": "sc77425de39f49b3bafa8e2dc14e1514",
+    "groupcells": false,
+    "id": "lbxAssignedTo",
+    "info": null,
+    "iphone": {
+        "dropDownImage": "fsins_ic_down_arrow_1.png"
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "ba5d8b6394c84b3894879a67b0e93559",
+    "masterdata": [
+        [
+            "lb1",
+            "Placeholder One"
+        ],
+        [
+            "lb2",
+            "Placeholder Two"
+        ],
+        [
+            "lb3",
+            "Placeholder Three"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "paddinginpixel": false,
+    "parent": "flxAssignedToContainer",
+    "pf": "frmMeasurementAssignment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "lb1",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "lb1",
+        "Placeholder One"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

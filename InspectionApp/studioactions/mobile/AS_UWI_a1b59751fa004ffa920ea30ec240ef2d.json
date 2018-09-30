@@ -1,0 +1,37 @@
+{
+    "AS_UWI_a1b59751fa004ffa920ea30ec240ef2d": {
+        "id": "AS_UWI_a1b59751fa004ffa920ea30ec240ef2d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "imgBase64",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99",
+            "name": "frmInspectionExecution",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___j718d210f4a5499f99777cfae1eae159",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onImageSelected",
+            "display": "onImageSelected",
+            "inputparams": [{
+                "name": "imgBase64",
+                "value": " imgBase64"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": true,
+            "source": "controller"
+        }, {
+            "id": "ADD_SNIPPET__a81a00c5a2be4b25910fcd60f7976100",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onImageSelected(imgBase64);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

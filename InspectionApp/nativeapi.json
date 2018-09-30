@@ -1,0 +1,192 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "11.0": {
+                "Kony_SDKCommons-iOS-11.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-iOS-11.0.zip",
+                    "filepath": "D:\\kony\\WorkSpace\\82\\GA\\Inspection\\InspectionApp\\nativebindings\\iOS\\11.0\\Kony_SDKCommons-iOS-11.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-iOS-11.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "D:\\kony\\WorkSpace\\82\\GA\\Inspection\\InspectionApp\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true
+                },
+                "Foundation-iOS-11.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.0\\Foundation-iOS-11.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\11.0\\Foundation-iOS-11.0.zip",
+                    "enable": true
+                },
+                "AVFoundation-iOS-11.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.0\\AVFoundation-iOS-11.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\11.0\\AVFoundation-iOS-11.0.zip",
+                    "enable": true
+                },
+                "Speech-iOS-11.0": {
+                    "title": "Speech",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.0\\Speech-iOS-11.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\11.0\\Speech-iOS-11.0.zip",
+                    "enable": true
+                },
+                "UIKit-iOS-11.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.0\\UIKit-iOS-11.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\11.0\\UIKit-iOS-11.0.zip",
+                    "enable": true
+                }
+            },
+            "10.0": {
+                "Foundation-iOS-10.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\10.0\\Foundation-iOS-10.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\10.0\\Foundation-iOS-10.0.zip",
+                    "enable": false
+                },
+                "UIKit-iOS-10.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\10.0\\UIKit-iOS-10.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\10.0\\UIKit-iOS-10.0.zip",
+                    "enable": false
+                },
+                "Kony_SyncV2-iOS-10.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\10.0\\Kony_SyncV2-iOS-10.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\10.0\\Kony_SyncV2-iOS-10.0.zip",
+                    "enable": false
+                }
+            },
+            "11.4": {
+                "Signature-iOS-11.4": {
+                    "title": "Signature",
+                    "platform": "iOS",
+                    "os": "11.4",
+                    "url": "D:\\InspectionApp\\.nativebindings\\iOS\\11.4\\Signature-iOS-11.4.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\iOS\\11.4\\Signature-iOS-11.4.zip",
+                    "enable": true
+                }
+            }
+        },
+        "Android": {
+            "4.0": {
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SDKCommons-Android-4.0.zip",
+                    "filepath": "D:\\kony\\WorkSpace\\82\\GA\\Inspection\\InspectionApp\\nativebindings\\Android\\4.0\\Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\KonyInstallations\\KonyEnterprise8.2.0GA\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\501\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "D:\\kony\\WorkSpace\\82\\GA\\Inspection\\InspectionApp\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                },
+                "SignatureCapture-Android-4.0": {
+                    "title": "SignatureCapture",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\SignatureCapture-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.speech-Android-4.0": {
+                    "title": "android.speech",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.speech-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.support.v4.content-Android-4.0": {
+                    "title": "android.support.v4.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.support.v4.content-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.speech.tts-Android-4.0": {
+                    "title": "android.speech.tts",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.speech.tts-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.preference-Android-4.0": {
+                    "title": "android.preference",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.preference-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.support.v4.app-Android-4.0": {
+                    "title": "android.support.v4.app",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.support.v4.app-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.webkit-Android-4.0": {
+                    "title": "android.webkit",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.webkit-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.content.pm-Android-4.0": {
+                    "title": "android.content.pm",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.content.pm-Android-4.0.zip",
+                    "enable": true
+                },
+                "java.util-Android-4.0": {
+                    "title": "java.util",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\java.util-Android-4.0.zip",
+                    "enable": true
+                },
+                "android.content-Android-4.0": {
+                    "title": "android.content",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "D:\\InspectionApp\\.nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "filepath": "D:\\InspectionApp\\InspectionApp\\nativebindings\\Android\\4.0\\android.content-Android-4.0.zip",
+                    "enable": true
+                }
+            }
+        }
+    }
+}

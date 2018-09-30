@@ -1,0 +1,28 @@
+{
+    "AS_Button_i0722000faca4c9f8c0b945cd4770df8": {
+        "id": "AS_Button_i0722000faca4c9f8c0b945cd4770df8",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmSetting",
+            "type": "forms",
+            "platform": "",
+            "KUID": "h34e1417cbdc4d9bb67df1cb269d786e"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___d049607631654e0a9dae99c713710c0a",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "resetSync",
+            "display": "resetSync",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

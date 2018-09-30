@@ -1,0 +1,139 @@
+{
+    "classname": "msrmntdescription",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i16c764fba5644c19889b863986e3939",
+                    "paramList": [],
+                    "propertyKey": "toggleVisibility",
+                    "pw": {
+                        "displayName": "toggleVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b931a96baea747dd918cc4ed59a3a72a",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "a5e00b4a9b544b769ec75df8608ddda2",
+                    "paramList": [
+                        {
+                            "name": "result"
+                        }
+                    ],
+                    "propertyKey": "getResult",
+                    "pw": {
+                        "displayName": "getResult",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "h7780894beee4f15954582d1131b7371",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "infoCallback",
+                    "pw": {
+                        "displayName": "infoCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "title",
+                    "group": "General",
+                    "kuid": "f8fce428c63542549eac13e62e2fe525",
+                    "originalPropertyKey": "title",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "displayName": "Title",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "info",
+                    "group": "General",
+                    "kuid": "c32842172cfd46e091b32de2d714d3a4",
+                    "originalPropertyKey": "info",
+                    "propertyIndex": 2,
+                    "propertyKey": "info",
+                    "pw": {
+                        "displayName": "info",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "description",
+                    "group": "General",
+                    "kuid": "h1fc525142a04955acc742d22d925677",
+                    "originalPropertyKey": "description",
+                    "propertyIndex": 3,
+                    "propertyKey": "description",
+                    "pw": {
+                        "displayName": "description",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "gd35a61a320147bf9ef2298dc87aa4c0",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

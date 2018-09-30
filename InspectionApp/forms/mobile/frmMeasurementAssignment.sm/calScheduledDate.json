@@ -1,0 +1,89 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizDateField",
+    "DNDConfig": null,
+    "Image": "calbtn_3_1.png",
+    "__parentReadjusting__": false,
+    "_data_": null,
+    "_date_": [
+        null,
+        null,
+        null
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "58dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "DD/MM/YYYY",
+    "_skin_": "sc888deccad74819a7b087e6eca6b3f0",
+    "_top_": {
+        "type": "string",
+        "value": "23dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "47.50%"
+    },
+    "advview": "default",
+    "calendaricon": "calbtn_3_1.png",
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "datecomponents": [
+        null,
+        null,
+        null
+    ],
+    "dateeditable": true,
+    "dateformat": "dd/MM/yyyy",
+    "day": null,
+    "daytextalignmentincell": 5,
+    "entereddate": null,
+    "format": "dd/MM/yyyy",
+    "formatteddate": "",
+    "hidedaysheader": false,
+    "hidemonthsheader": false,
+    "hour": 0,
+    "id": "calScheduledDate",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d0735180786546d690238dcbf0cc512d",
+    "luadate": [
+        null,
+        null,
+        null
+    ],
+    "minutes": 0,
+    "month": null,
+    "name": "kony.ui.Calendar",
+    "noofmonths": 1,
+    "paddinginpixel": false,
+    "pagedate": "/2018",
+    "parent": "flxDateTime",
+    "pf": "frmMeasurementAssignment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "seconds": 0,
+    "selectdate": "//2018",
+    "viewtype": "default",
+    "wType": "Calendar",
+    "widgetalignment": 5,
+    "year": null,
+    "zindex": 1
+}

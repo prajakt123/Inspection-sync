@@ -1,0 +1,23 @@
+{
+    "AS_NativeContainer_d0a138986d7045328d87299e8b8ba8eb": {
+        "id": "AS_NativeContainer_d0a138986d7045328d87299e8b8ba8eb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u5fcc5da525a40af9cb8e95424cc5b2b",
+            "name": "uwu5fcc5da525a40af9cb8e95424cc5b2b",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__c517b95bd9ee42bf8f0dc2ea9cbfb138",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.addSignatureCanvas(eventobject);\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

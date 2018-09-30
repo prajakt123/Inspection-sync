@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "s9a0e771866940b6b9594b3e9d3333cc",
+    "_text_": "PDF",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 8,
+    "displaytext": true,
+    "focusskin": "s9a0e771866940b6b9594b3e9d3333cc",
+    "id": "btnPdf",
+    "ide_onClick": "AS_Button_cf5f6f219d124ff38e7377f98b743bdd",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "fb6b386b4b9e4fc2baee8e99e1b2314e",
+    "name": "kony.ui.Button",
+    "parent": "flxMeasurementTitle",
+    "pf": "frmInspectionExecution",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

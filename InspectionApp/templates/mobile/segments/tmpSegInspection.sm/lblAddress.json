@@ -1,0 +1,71 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        1,
+        0,
+        8
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "21dp"
+    },
+    "_skin_": "s0b4a9c70ff4430a9c97771bf67de5ce",
+    "_text_": "MLGW Electrical substation #55 , 3350 american way , Memphis city , 38118",
+    "_top_": {
+        "type": "string",
+        "value": "130dp"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "lblAddress",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f6d63ce94f394ce4865e0eb718057d25",
+    "name": "kony.ui.Label",
+    "paddinginpixel": false,
+    "parent": "flxAssetDetail",
+    "pf": "tmpSegInspection",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "textstyle": {},
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 1
+}

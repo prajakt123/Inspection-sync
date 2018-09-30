@@ -1,0 +1,66 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_right_": {
+        "type": "string",
+        "value": "15dp"
+    },
+    "_skin_": "s10eda4ececb4f40a2090b275b2a5db9",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "children": [
+        "flxAssetAndInspectionTitle",
+        "lblHLine",
+        "flxInspectionInfoRoot"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxAssetDetailRoot",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f81527e92fd249cda48ffbee6ca083b1",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxScAssetDetailContainer",
+    "pf": "frmInspectionReview",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

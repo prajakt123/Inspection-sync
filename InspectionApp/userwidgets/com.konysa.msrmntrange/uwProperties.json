@@ -1,0 +1,177 @@
+{
+    "classname": "msrmntrange",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a400101bc68241d2aba56766fe4f328d",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "initializeRange",
+                    "pw": {
+                        "displayName": "initializeRange",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "e818a43fe727468db9ba9f1abbb52ba0",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyKey": "setValue",
+                    "pw": {
+                        "displayName": "setValue",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hf2f7b0bef5046b1b1c5462378bbde97",
+                    "paramList": [
+                        {
+                            "name": "status"
+                        }
+                    ],
+                    "propertyKey": "toggleVisibility",
+                    "pw": {
+                        "displayName": "toggleVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "hd51802b1f564e74a79adc53f18cfbd3",
+                    "paramList": [],
+                    "propertyKey": "getResult",
+                    "pw": {
+                        "displayName": "getResult",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "bffd2efe2b124d0491f42f557443bb48",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fba200ef53904baa8a5b6d2c8b566754",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "infoCallback",
+                    "pw": {
+                        "displayName": "infoCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 0,
+                    "group": "General",
+                    "kuid": "d095b6154b014802af5a30fafa40f724",
+                    "originalPropertyKey": "min",
+                    "propertyIndex": 1,
+                    "propertyKey": "min",
+                    "pw": {
+                        "displayName": "min",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 100,
+                    "group": "General",
+                    "kuid": "jfc17034011946bdb1d9b9a96faac50d",
+                    "originalPropertyKey": "max",
+                    "propertyIndex": 2,
+                    "propertyKey": "max",
+                    "pw": {
+                        "displayName": "max",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 50,
+                    "group": "General",
+                    "kuid": "g1b04e61c79342a38de81ad40033a8a9",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 3,
+                    "propertyKey": "value",
+                    "pw": {
+                        "displayName": "value",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "b150d2dcdbb24026a867cbbe4a19e359",
+                    "type": "integer",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

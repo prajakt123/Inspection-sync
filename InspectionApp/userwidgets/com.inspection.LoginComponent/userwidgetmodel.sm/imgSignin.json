@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10.10%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s381ecc851804a5f919e298cbd5ab73e",
+    "_src_": "signin.png",
+    "_top_": {
+        "type": "string",
+        "value": "65.98%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80.80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "uwu0e0548d754d4fa8a3d9ac62b7ee65ed",
+        "platform": "android",
+        "templateType": "userwidgets",
+        "topLevelBox": null
+    },
+    "id": "imgSignin",
+    "ide_onTouchEnd": "AS_Image_c42f9975a9584c98b0cf80cdc56b47a5",
+    "imagescalemode": 1,
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c7cdda51444a476897b48dd2eb7555bc",
+    "name": "kony.ui.Image2",
+    "parent": "LoginComponent",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 2
+}

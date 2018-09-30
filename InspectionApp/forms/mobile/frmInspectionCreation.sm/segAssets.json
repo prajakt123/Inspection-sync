@@ -1,0 +1,192 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgAssetImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pic.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MLGW Electrical Solution Substation #55, 3350 American Way, Memphis City, 38118"
+            },
+            "lblAssetDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transformers"
+            },
+            "lblAssetId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "asset87671"
+            },
+            "lblAssetType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblDistance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.4 KM"
+            }
+        },
+        {
+            "imgAssetImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pic.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MLGW Electrical Solution Substation #55, 3350 American Way, Memphis City, 38118"
+            },
+            "lblAssetDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transformers"
+            },
+            "lblAssetId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "asset87671"
+            },
+            "lblAssetType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblDistance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.4 KM"
+            }
+        },
+        {
+            "imgAssetImage": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "pic.png"
+            },
+            "lblAddress": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MLGW Electrical Solution Substation #55, 3350 American Way, Memphis City, 38118"
+            },
+            "lblAssetDescription": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Transformers"
+            },
+            "lblAssetId": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "asset87671"
+            },
+            "lblAssetType": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblDistance": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "2.4 KM"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAssets",
+    "ide_onRowClick": "AS_Segment_d602395aae09499e87305c80fbd26a99",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dce0fc3eddd44d2daee86e053caeb531",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot_3_1.png",
+    "pageondotimage": "pageondot_3_1.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxInspectionCreation",
+    "pf": "frmInspectionCreation",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "fb117b390614414981d3e5d3322a6b4d",
+    "rowcounter": 2,
+    "rowfocusskin": "s5b76ab67dce4a19a035fa7e27c7c1ce",
+    "rowskin": "s414b8929bbf4923818d3f86938b0801",
+    "rowtemplate": "flxAssets",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxAssetDetail": "flxAssetDetail",
+        "flxAssetLeft": "flxAssetLeft",
+        "flxAssetRight": "flxAssetRight",
+        "flxAssets": "flxAssets",
+        "flxBottom": "flxBottom",
+        "flxBottomSpace": "flxBottomSpace",
+        "flxImage": "flxImage",
+        "flxSpace": "flxSpace",
+        "flxTempSpace": "flxTempSpace",
+        "flxTop": "flxTop",
+        "flxVertical": "flxVertical",
+        "imgAssetImage": "imgAssetImage",
+        "lblAddress": "lblAddress",
+        "lblAssetDescription": "lblAssetDescription",
+        "lblAssetId": "lblAssetId",
+        "lblAssetType": "lblAssetType",
+        "lblDistance": "lblDistance"
+    },
+    "zindex": 1
+}

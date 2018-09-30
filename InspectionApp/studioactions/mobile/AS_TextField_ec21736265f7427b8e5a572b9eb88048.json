@@ -1,0 +1,20 @@
+{
+    "AS_TextField_ec21736265f7427b8e5a572b9eb88048": {
+        "id": "AS_TextField_ec21736265f7427b8e5a572b9eb88048",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onTextChange_be1043d41d444b0d99626de2d45aad45",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onTextChangeOfSearch(eventobject, changedtext);",
+            "callbackType": null
+        }]
+    }
+}

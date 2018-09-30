@@ -1,0 +1,151 @@
+{
+    "classname": "pdfviewer",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "c2a96f7aaca14bb3aae741c2b4074a4b",
+                    "paramList": [
+                        {
+                            "name": "url"
+                        }
+                    ],
+                    "propertyKey": "setURL",
+                    "pw": {
+                        "displayName": "setURL",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "d05d587647c148b9a8e6189b6d513caf",
+                    "paramList": [
+                        {
+                            "name": "path"
+                        }
+                    ],
+                    "propertyKey": "setAndroidFilePath",
+                    "pw": {
+                        "displayName": "setAndroidFilePath",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "ee87ee888c0b4928b9f878c9ad0ddcc9",
+                    "paramList": [
+                        {
+                            "name": "path"
+                        }
+                    ],
+                    "propertyKey": "setIphoneFilePath",
+                    "pw": {
+                        "displayName": "setIphoneFilePath",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [
+                "Online",
+                "Local File Path"
+            ],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "http://forms.kony.com/rs/konysolutions/images/DS-Kony-Marketplace.pdf",
+                    "group": "Online",
+                    "kuid": "b10f82a40a7a4c6baa64d283adf62b10",
+                    "originalPropertyKey": "url",
+                    "propertyIndex": 1,
+                    "propertyKey": "url",
+                    "pw": {
+                        "displayName": "URL",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Online",
+                    "group": "General",
+                    "kuid": "b238243faa1c4b4bb351519bf0368c9d",
+                    "originalPropertyKey": "pdfType",
+                    "propertyIndex": 1,
+                    "propertyKey": "pdfType",
+                    "pw": {
+                        "displayName": "Type",
+                        "uiRepresentation": "Label-Combobox"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "list selector",
+                    "value": [
+                        "Online",
+                        "Local File Path"
+                    ]
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Local File Path",
+                    "kuid": "ed2799e16bc74c1aa9ad640d5d0a654c",
+                    "originalPropertyKey": "setAndroidPath",
+                    "propertyIndex": 1,
+                    "propertyKey": "setAndroidPath",
+                    "pw": {
+                        "displayName": "Android",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "Local File Path",
+                    "kuid": "ffbca41c4be2458b8a963f2febcae70f",
+                    "originalPropertyKey": "setIphonePath",
+                    "propertyIndex": 2,
+                    "propertyKey": "setIphonePath",
+                    "pw": {
+                        "displayName": "iOS",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f99fd8ad43f941cfa0053ced52dd3848",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

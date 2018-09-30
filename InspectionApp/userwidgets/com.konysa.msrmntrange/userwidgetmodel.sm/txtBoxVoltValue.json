@@ -1,0 +1,73 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        4,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Type value",
+    "_skin_": "s39e5adeeeab40d6ba668589aa4eb469",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "63%"
+    },
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s39e5adeeeab40d6ba668589aa4eb469",
+    "id": "txtBoxVoltValue",
+    "ide_onDone": "AS_TextField_be8f17fbdf2a47f0b10e21a4b3afac53",
+    "ide_onTextChange": "AS_TextField_ad23352b4abf458a94345843525e1bed",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "keyboardstyle": "A",
+    "keyboardtype": "A",
+    "kuid": "i527a50655194875abbfd6ca937496ff",
+    "mode": "N",
+    "name": "kony.ui.TextBox2",
+    "parent": "flxRangeContainer",
+    "pf": "userwidgetmodel",
+    "placeholderskin": "s62a0403d38e4b9fa36916e6e9e515b7",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "securetextentry": false,
+    "textinputmode": "N",
+    "tooltip": "",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

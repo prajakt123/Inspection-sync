@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_eec2549043c346509d52f8834170fbf1": {
+        "id": "AS_FlexContainer_eec2549043c346509d52f8834170fbf1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "c04d962a77f445f6b4866a7d4b81071e",
+            "name": "frmMeasurementAssignment",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__f18a565ec2e4429093b4ac16038b6f79",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxInfoCard.left = \"-100%\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

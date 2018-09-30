@@ -1,0 +1,24 @@
+{
+    "AS_Button_ee690f1d08684c248ac1078dd9d7d105": {
+        "id": "AS_Button_ee690f1d08684c248ac1078dd9d7d105",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "a01ea68ec5a940a7b048f92adf734c53",
+            "name": "frmInspectionReview",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__acbb32355e21467da3b5f33b81a07ac0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.submitInspection();\n//this.getInspectedData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

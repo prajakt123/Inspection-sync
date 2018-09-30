@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_bec5a9d6573647f0b70dd34a19eca9e7": {
+        "id": "AS_FlexContainer_bec5a9d6573647f0b70dd34a19eca9e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_deaa0e43ef1c4c9bbc8706606752c14a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onClickPDF();\n",
+            "callbackType": null
+        }]
+    }
+}

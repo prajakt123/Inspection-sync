@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_cc3c3f2e0c58484ca97ca587c9cdde79": {
+        "id": "AS_FlexContainer_cc3c3f2e0c58484ca97ca587c9cdde79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "ua29a78c69ca4043abbfe88343568e95",
+            "name": "uwua29a78c69ca4043abbfe88343568e95",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__ec733a29b17344e6a08cd36e9dfa2d50",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.checkUncheckItem(eventobject);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

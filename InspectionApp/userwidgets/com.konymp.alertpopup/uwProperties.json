@@ -1,0 +1,238 @@
+{
+    "classname": "alertpopup",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "i1d5f414bcdf4d9c87d7bca487492296",
+                    "paramList": [],
+                    "propertyKey": "showPopUp",
+                    "pw": {
+                        "displayName": "showPopUp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ib6da9ef84314021bfb8662e20064c7c",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "iecb768f23fd4640a9b5a28d010b8480",
+                    "paramList": [],
+                    "propertyKey": "hidePopUp",
+                    "pw": {
+                        "displayName": "hidePopUp",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ib6da9ef84314021bfb8662e20064c7c",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e892b4dd917e4252b7b10259ae13c5b3",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onButtonClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onButtonClick",
+                        "srcWidget": "btnClick",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b79c6203beb24276bcd2f939d507c783"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a3bb2e10ba7747919c1cf4b8c0651e2a",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "messageText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Message",
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j4ac126eb7f74770b016d90f254433bd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d4a8016403c2410b90c869ac3ab2861f",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "buttonText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Button Text",
+                        "srcWidget": "btnClick",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b79c6203beb24276bcd2f939d507c783"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ba74082d50e242bb8670301212c1ccd1",
+                    "originalPropertyKey": "contentAlignment",
+                    "propertyIndex": 3,
+                    "propertyKey": "messageAlignment",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "displayName": "Message Alignment",
+                        "forkablePlatforms": {
+                            "desktop": [
+                                "kiosk",
+                                "desktopweb"
+                            ],
+                            "mobile": [
+                                "iphone",
+                                "android",
+                                "winphone8",
+                                "spa"
+                            ],
+                            "tablet": [
+                                "ipad",
+                                "android",
+                                "windows8",
+                                "spa"
+                            ]
+                        },
+                        "srcWidget": "lblHeader",
+                        "type": "string",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Forked-Combobox",
+                                "dataUpdaterId": "Forked-Combobox",
+                                "popupId": "Forked-Combobox",
+                                "type": "ForkComboboxBtn"
+                            },
+                            "Button6Group": {},
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-6ButtonGroup-Button",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j4ac126eb7f74770b016d90f254433bd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cdab04261bc34094bf40ea1014848e30",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "messageSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Message Skin",
+                        "srcWidget": "lblHeader",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "j4ac126eb7f74770b016d90f254433bd"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f206047974204961a8802a3d8e21593e",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 5,
+                    "propertyKey": "buttonSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Button Skin",
+                        "srcWidget": "btnClick",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b79c6203beb24276bcd2f939d507c783"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g7fa7549c7804408bde8becacb85a601",
+                    "originalPropertyKey": "focusSkin",
+                    "propertyIndex": 6,
+                    "propertyKey": "buttonFocusSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Button Focus Skin",
+                        "srcWidget": "btnClick",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "b79c6203beb24276bcd2f939d507c783"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ca6f696fd37e4fd68d31a04482460faf",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "backgroundOverlaySkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Background Overlay",
+                        "srcWidget": "flxPopOverShade",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "ff92a281f32b4fc5aecded8001ae6769"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "gb50f9147b1848e7b5c8cc8fee4970f8",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 8,
+                    "propertyKey": "popoverFlexSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "displayName": "Popover Flex Skin",
+                        "srcWidget": "flxPopover",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c045bd0c6ff64aeaa4027ba468ab87ac"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konymp",
+    "version": "1.0.0"
+}

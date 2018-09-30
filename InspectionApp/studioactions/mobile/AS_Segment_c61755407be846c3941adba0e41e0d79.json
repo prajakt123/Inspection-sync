@@ -1,0 +1,30 @@
+{
+    "AS_Segment_c61755407be846c3941adba0e41e0d79": {
+        "id": "AS_Segment_c61755407be846c3941adba0e41e0d79",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "c7d88b8328a849c7bf9461d8436805ca",
+            "name": "frmInspectionsList",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e3683f12940341159d9a4dd948c88383",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onSegRowClick(eventobject, sectionNumber, rowNumber);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

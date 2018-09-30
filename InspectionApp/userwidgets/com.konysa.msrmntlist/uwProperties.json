@@ -1,0 +1,90 @@
+{
+    "classname": "msrmntlist",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "ab754e2addee4836a53005cc70dc7eb0",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fe5183f7e3bf4a2b8085e5642e40fb6d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "de666052a0a24384a56fb9a5a1235129",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "toggleVisibility",
+                    "pw": {
+                        "displayName": "toggleVisibility",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fe5183f7e3bf4a2b8085e5642e40fb6d",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "b5248490376b4daeabf8ec246d429cfa",
+                    "paramList": [],
+                    "propertyKey": "getResult",
+                    "pw": {
+                        "displayName": "getResult",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fe5183f7e3bf4a2b8085e5642e40fb6d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a04e59a896ef48b588ca5039813d752e",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "infoCallback",
+                    "pw": {
+                        "displayName": "infoCallback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "fe5183f7e3bf4a2b8085e5642e40fb6d",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

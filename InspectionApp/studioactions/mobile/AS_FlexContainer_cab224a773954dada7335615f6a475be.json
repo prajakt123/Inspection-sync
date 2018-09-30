@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_cab224a773954dada7335615f6a475be": {
+        "id": "AS_FlexContainer_cab224a773954dada7335615f6a475be",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99",
+            "name": "frmInspectionExecution",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cc08364364fa45c5a546c43e58713eb0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxInfoCardContainer.right=\"-100%\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

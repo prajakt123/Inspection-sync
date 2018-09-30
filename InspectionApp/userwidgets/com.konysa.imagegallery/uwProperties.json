@@ -1,0 +1,79 @@
+{
+    "classname": "imagegallery",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e5fe19d1fcd544e496d97e5914522dc2",
+                    "paramList": [
+                        {
+                            "name": "value"
+                        }
+                    ],
+                    "propertyKey": "toggleBackground",
+                    "pw": {
+                        "displayName": "toggleBackground",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ab701782759c4eb489d08d5e56d0f7a9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j4ef3bd41695492999ff4c77c3002fb6",
+                    "paramList": [
+                        {
+                            "name": "imgBase64"
+                        }
+                    ],
+                    "propertyIndex": 1,
+                    "propertyKey": "onImageSelection",
+                    "pw": {
+                        "displayName": "onImageSelection",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ab701782759c4eb489d08d5e56d0f7a9",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "c82d73d6926b421fbcdc5562dd8068c5",
+                    "paramList": [],
+                    "propertyIndex": 2,
+                    "propertyKey": "onDummyFlexClick",
+                    "pw": {
+                        "displayName": "onDummyFlexClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ab701782759c4eb489d08d5e56d0f7a9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

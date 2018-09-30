@@ -1,0 +1,24 @@
+{
+    "AS_Button_fd1ea9f17e8f402b9308f98701c9d1c5": {
+        "id": "AS_Button_fd1ea9f17e8f402b9308f98701c9d1c5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "be2c01e24ee846a58f7b082e3f7f1a99",
+            "name": "frmInspectionExecution",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__j6a51c0a1be24afa8fb407b74be20daa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.readMeasurement();\n//this.view.measurement.getResult();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "imgSelection": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox_selected_1.png"
+            },
+            "lblAssetCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgSelection": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox_selected_1.png"
+            },
+            "lblAssetCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        },
+        {
+            "imgSelection": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "checkbox_selected_1.png"
+            },
+            "lblAssetCode": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "TRANS"
+            },
+            "lblLine": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "02",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAssetType",
+    "info": null,
+    "invokedProperty": "selectedStateImage",
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ae260d78667a4f25823254f4235b3b30",
+    "masterdata": {},
+    "maxheight": {
+        "type": "string",
+        "value": "250dp"
+    },
+    "minheight": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot_1.png",
+    "pageondotimage": "pageondot_1.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAssetsType",
+    "pf": "frmInspectionsList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f7f7101773874dc2a9c563db69956961",
+    "rowcounter": 2,
+    "rowfocusskin": "s5b76ab67dce4a19a035fa7e27c7c1ce",
+    "rowskin": "s414b8929bbf4923818d3f86938b0801",
+    "rowtemplate": "flxRoot",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectimage": "checkbox_selected_1.png",
+    "selectionbehavior": "multiselect",
+    "selectionbehaviorconfig": {
+        "imageIdentifier": "imgSelection",
+        "selectedStateImage": "checkbox_selected_1.png",
+        "unselectedStateImage": "checkbox_unselected_1.png"
+    },
+    "selectionindicator": "imgSelection",
+    "separatorcolor": "b9b9b92e",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "unselectimage": "checkbox_unselected_1.png",
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxRoot": "flxRoot",
+        "imgSelection": "imgSelection",
+        "lblAssetCode": "lblAssetCode",
+        "lblLine": "lblLine"
+    },
+    "zindex": 1
+}

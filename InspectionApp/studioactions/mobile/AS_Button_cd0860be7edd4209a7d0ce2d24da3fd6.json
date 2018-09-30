@@ -1,0 +1,21 @@
+{
+    "AS_Button_cd0860be7edd4209a7d0ce2d24da3fd6": {
+        "id": "AS_Button_cd0860be7edd4209a7d0ce2d24da3fd6",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onClick_a61b8d5c384e4f39af8582b178a4def0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "hideSearchContainer",
+            "display": "hideSearchContainer",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

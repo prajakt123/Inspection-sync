@@ -1,0 +1,24 @@
+{
+    "AS_FlexContainer_b57a700426904c29964b6a9b7437bdd4": {
+        "id": "AS_FlexContainer_b57a700426904c29964b6a9b7437bdd4",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "c04d962a77f445f6b4866a7d4b81071e",
+            "name": "frmMeasurementAssignment",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e92b11cab6ab4bf68b9bd9741504138e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxPDFViewer.left = \"100%\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

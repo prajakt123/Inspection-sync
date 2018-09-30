@@ -1,0 +1,150 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        {
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe@kony.com"
+            },
+            "lblInitials": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "JD"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Doe"
+            }
+        },
+        {
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe@kony.com"
+            },
+            "lblInitials": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "JD"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Doe"
+            }
+        },
+        {
+            "lblEmail": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "john.doe@kony.com"
+            },
+            "lblInitials": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "JD"
+            },
+            "lblName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "John Doe"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "02",
+    "enabledictionary": true,
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segAssignedTech",
+    "ide_onRowClick": "AS_Segment_f15543541ce441ca947a9b40971a99f3",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "enableDictionary": true,
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j82714763c314e5f8ca6f2f8d2989497",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot_6.png",
+    "pageondotimage": "pageondot_6.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxAssignedTechList",
+    "pf": "frmMeasurementAssignment",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": true,
+    "rowTemplateId": "a082380282d845fb8d9fb2570ca89e43",
+    "rowcounter": 2,
+    "rowfocusskin": "s5b76ab67dce4a19a035fa7e27c7c1ce",
+    "rowskin": "s414b8929bbf4923818d3f86938b0801",
+    "rowtemplate": "flxSegAssignedTech",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "sd63fb0efed6433895d1b57ab78ab4e4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxCircle": "flxCircle",
+        "flxDetail": "flxDetail",
+        "flxImage": "flxImage",
+        "flxInnerContainer": "flxInnerContainer",
+        "flxSegAssignedTech": "flxSegAssignedTech",
+        "flxSpaces": "flxSpaces",
+        "lblEmail": "lblEmail",
+        "lblInitials": "lblInitials",
+        "lblName": "lblName"
+    },
+    "zindex": 1
+}

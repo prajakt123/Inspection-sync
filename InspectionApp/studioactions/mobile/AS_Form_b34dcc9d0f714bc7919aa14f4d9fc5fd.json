@@ -1,0 +1,24 @@
+{
+    "AS_Form_b34dcc9d0f714bc7919aa14f4d9fc5fd": {
+        "id": "AS_Form_b34dcc9d0f714bc7919aa14f4d9fc5fd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "iefc47c3d43345c9a5e7dddbc1d6a10d",
+            "name": "frmPdfViewer",
+            "platform": null,
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cf49f6eb73c74c8b9bf9fbe45df38fac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onPostShow();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

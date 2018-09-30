@@ -1,0 +1,61 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "ide_Signin": "AS_UWI_febb3c6135c5454ea34fa23d8149c5ef",
+        "ide_onSignIn": "AS_UWI_ge8a3eb716fc4df5839e2409f079c1d5",
+        "ide_onSignin": "AS_UWI_aebe8c9e8964457ca0e7e1d718a8a918"
+    },
+    "id": "LoginComponent",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "c87d504089d44a2c9c582dd5cbe853f3",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snaptogrid": true,
+    "sourceUserWidget": "a3328d153b03463d87369530f0d0336d",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,69 @@
+{
+    "DNDConfig": null,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd4ee38283574f49839ae7049a4b450c",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "children": [
+        "flxInner",
+        "flxLeftLine",
+        "flxRightLine",
+        "flxBorder",
+        "flxSideBarDotted"
+    ],
+    "clipbounds": true,
+    "containerId": true,
+    "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "mobile",
+            "name": "flxRowImagesController"
+        }
+    },
+    "enablescrolling": true,
+    "id": "flxRowImages",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ddd4cf7ae06041ceb3bb4de8bc22f0fd",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "tempRowImages",
+    "pf": "tempRowImages",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

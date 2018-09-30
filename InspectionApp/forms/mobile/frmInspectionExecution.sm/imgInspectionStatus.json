@@ -1,0 +1,84 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        1,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s381ecc851804a5f919e298cbd5ab73e",
+    "_src_": "in_progress_2.png",
+    "_width_": {
+        "type": "string",
+        "value": "112dp"
+    },
+    "android": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "frmInspectionExecution",
+        "platform": "android",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgInspectionStatus",
+    "imagescalemode": 1,
+    "info": null,
+    "invokedProperty": "src",
+    "iphone": {
+        "render": false
+    },
+    "iscustomlayout": false,
+    "isvisible": false,
+    "kuid": "h598c6d1e15c4a1c87cf3a0ad6f4ffe0",
+    "name": "kony.ui.Image2",
+    "paddinginpixel": false,
+    "parent": "flxInspectionStatus",
+    "pf": "frmInspectionExecution",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

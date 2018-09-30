@@ -1,0 +1,30 @@
+{
+    "AS_Segment_f15543541ce441ca947a9b40971a99f3": {
+        "id": "AS_Segment_f15543541ce441ca947a9b40971a99f3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "KUID": "c04d962a77f445f6b4866a7d4b81071e",
+            "name": "frmMeasurementAssignment",
+            "platform": "",
+            "type": "forms"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d944520aaaee498a9009668b02924a78",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this._onRowClickAssignedTech();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "AS_FlexContainer_i3adc522cfd64b28bd7a3914a395519d": {
+        "id": "AS_FlexContainer_i3adc522cfd64b28bd7a3914a395519d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_h4fd574aa94f478295dffd7202d55d05",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxImageViewer.left=\"100%\";",
+            "callbackType": null
+        }]
+    }
+}

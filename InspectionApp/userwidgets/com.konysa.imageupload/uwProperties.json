@@ -1,0 +1,126 @@
+{
+    "classname": "imageupload",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "fc327b0c59b74759a6a84ba0f01c1e60",
+                    "paramList": [],
+                    "propertyKey": "getResult",
+                    "pw": {
+                        "displayName": "getResult",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f986ba786ddc4714a5953355f2e76614",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "eefe19c96a5d454185b950bd6a77a055",
+                    "paramList": [
+                        {
+                            "name": "data"
+                        }
+                    ],
+                    "propertyKey": "setData",
+                    "pw": {
+                        "displayName": "setData",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f986ba786ddc4714a5953355f2e76614",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eaa49287747b402ba73df365154e4054",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onAddImageClick",
+                    "pw": {
+                        "displayName": "onAddImageClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "f986ba786ddc4714a5953355f2e76614",
+                    "type": "event"
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f95510986f8a424a999eea0c86ede58d",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickImages",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickImages",
+                        "srcWidget": "flxOuterContainer",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c4619a7b046b402e9cd0b007154bad36"
+                }
+            ]
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "3424236194",
+                    "group": "General",
+                    "kuid": "a2873ac3bfac44278132ab5ae9bd17cf",
+                    "originalPropertyKey": "appUserID",
+                    "propertyIndex": 1,
+                    "propertyKey": "appUserID",
+                    "pw": {
+                        "displayName": "appUserID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f986ba786ddc4714a5953355f2e76614",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "52271989506",
+                    "group": "General",
+                    "kuid": "e68ed338a0f94a78b57aace42126b351",
+                    "originalPropertyKey": "rootFolderID",
+                    "propertyIndex": 2,
+                    "propertyKey": "rootFolderID",
+                    "pw": {
+                        "displayName": "rootFolderID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "f986ba786ddc4714a5953355f2e76614",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

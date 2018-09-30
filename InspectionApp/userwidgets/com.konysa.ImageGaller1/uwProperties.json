@@ -1,0 +1,77 @@
+{
+    "classname": "ImageGaller1",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "eec24f2ce6e446eba6e69806247e6adb",
+                    "paramList": [],
+                    "propertyKey": "setImage",
+                    "pw": {
+                        "displayName": "setImage",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u31d5ae0126a437d8f42ebc83497c2d1",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "null",
+                    "group": "General",
+                    "kuid": "g6ea2d94028d4798b48e2ca45d82b3f8",
+                    "originalPropertyKey": "appUserID",
+                    "propertyIndex": 1,
+                    "propertyKey": "appUserID",
+                    "pw": {
+                        "displayName": "App User ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u31d5ae0126a437d8f42ebc83497c2d1",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "0",
+                    "group": "General",
+                    "kuid": "g83bc371dd4a47f68fb7ef95f0d3ec09",
+                    "originalPropertyKey": "rootFolderID",
+                    "propertyIndex": 2,
+                    "propertyKey": "rootFolderID",
+                    "pw": {
+                        "displayName": "Root Folder ID",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "u31d5ae0126a437d8f42ebc83497c2d1",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.konysa",
+    "version": "1.0.0"
+}

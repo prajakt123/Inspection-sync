@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_gf868a86067447198283794293a0dbc2": {
+        "id": "AS_FlexContainer_gf868a86067447198283794293a0dbc2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "KUID": "u1051d85be5948f49be2903ae360f550",
+            "name": "uwu1051d85be5948f49be2903ae360f550",
+            "type": "userwidgets"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__cfb722655f9b46e0a70d65478c4511a4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.openGallery(eventobject);\n//this.view.flxImageSelector.setVisibility(true);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

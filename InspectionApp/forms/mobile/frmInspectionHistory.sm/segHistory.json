@@ -1,0 +1,404 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgDot": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "dot.png"
+                },
+                "imgDotted": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "verticalline.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "13th July, "
+                },
+                "lblInspection": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "INSPECTION ID"
+                },
+                "lblInspectionId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ins063"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "08:10 Hrs"
+                }
+            },
+            [
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgDot": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "dot.png"
+                },
+                "imgDotted": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "verticalline.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "13th July, "
+                },
+                "lblInspection": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "INSPECTION ID"
+                },
+                "lblInspectionId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ins063"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "08:10 Hrs"
+                }
+            },
+            [
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgDot": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "dot.png"
+                },
+                "imgDotted": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "verticalline.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "13th July, "
+                },
+                "lblInspection": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "INSPECTION ID"
+                },
+                "lblInspectionId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ins063"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "08:10 Hrs"
+                }
+            },
+            [
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgDot": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "dot.png"
+                },
+                "imgDotted": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "verticalline.png"
+                },
+                "lblDate": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "13th July, "
+                },
+                "lblInspection": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "INSPECTION ID"
+                },
+                "lblInspectionId": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "ins063"
+                },
+                "lblTime": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "08:10 Hrs"
+                }
+            },
+            [
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                },
+                {
+                    "imgDotted": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "verticalline.png"
+                    },
+                    "lblHeader": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "AMBIENT TEMPERATURE"
+                    },
+                    "lblValue": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "100"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "32",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segHistory",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "none"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h627539ba98a451ea450a33b2423fd89",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "paddinginpixel": false,
+    "pageoffdotimage": "pageoffdot_2_2.png",
+    "pageondotimage": "pageondot_2_2.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxHistory",
+    "pf": "frmInspectionHistory",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e841f3cfa31e48eab9ebd1f83b546b87",
+    "rowcounter": 2,
+    "rowfocusskin": "sc75ed4811eb4e30ae5713abbdc06d3b",
+    "rowskin": "s00696f4df1440fd939e5a174d552af1",
+    "rowtemplate": "flxHistoryRowHeader",
+    "screenlevelwidget": false,
+    "seccounter": 3,
+    "sectionHeaderTemplateId": "d4df7cf2264f496aa771906fe945a234",
+    "sectionheaderskin": "sac8731e43204b92bf43b810c8c156eb",
+    "sectionheadertemplate": "flxHistorySectionHeader",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxDateTime": "flxDateTime",
+        "flxHistoryRowHeader": "flxHistoryRowHeader",
+        "flxHistorySectionHeader": "flxHistorySectionHeader",
+        "flxInner": "flxInner",
+        "flxLeftLine": "flxLeftLine",
+        "flxRightLine": "flxRightLine",
+        "flxSideBarDotted": "flxSideBarDotted",
+        "flxSidebar": "flxSidebar",
+        "flxSpace": "flxSpace",
+        "imgDot": "imgDot",
+        "imgDotted": "imgDotted",
+        "lblDate": "lblDate",
+        "lblHeader": "lblHeader",
+        "lblInspection": "lblInspection",
+        "lblInspectionId": "lblInspectionId",
+        "lblTime": "lblTime",
+        "lblValue": "lblValue"
+    },
+    "zindex": 1
+}

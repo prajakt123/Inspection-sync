@@ -1,0 +1,33 @@
+{
+    "AS_Image_c6a1f410e9fc4b4ab824535c227ce0e3": {
+        "id": "AS_Image_c6a1f410e9fc4b4ab824535c227ce0e3",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }, {
+            "datatype": "collection",
+            "name": "context"
+        }],
+        "contextObj": {
+            "KUID": "e40490ea5e5848c0ba7bcbd0c0315074",
+            "name": "tmpSectionHeader",
+            "platform": "",
+            "type": "templates"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__fbd1d8db8d4b44989b1564dfe9a8b0d5",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.onClickAddBtn(eventobject, x, y, context);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
